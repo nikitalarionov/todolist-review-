@@ -1,0 +1,34 @@
+.task {
+    display: flex;
+    padding: 15px;
+    background: #F1F1F1;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.task-enter {
+    opacity: 0;
+}
+.task-enter-active {
+    opacity: 1;
+    transition: .6s;
+}
+.task-exit {
+    opacity: 1;
+}
+.task-exit-active {
+    opacity: 0;
+    transition: .6s;
+}
+
+.no-tasks {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.task__delete-btn {
+    background: #52D3AA;
+}
